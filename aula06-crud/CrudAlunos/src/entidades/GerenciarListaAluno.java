@@ -34,4 +34,7 @@ public class GerenciarListaAluno {
         alunos.remove(idAluno);
         System.out.println("Aluno removido com sucesso!");
     }
+
+    public void removerAlunos(int idAluno) {
+    }
 }

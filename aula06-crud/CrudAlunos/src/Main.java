@@ -77,6 +77,11 @@ public class Main {
 
                     listaAlunos.removerAlunos(idAluno);
                 }
+
+                case"5" -> {
+                    System.out.println("Programa finalizado com sucesso!");
+                    return;
+                }
             }
 
         }
