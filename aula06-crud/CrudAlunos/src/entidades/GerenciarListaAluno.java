@@ -29,4 +29,9 @@ public class GerenciarListaAluno {
         aluno.setNota2(notaAluno2);
         System.out.println("Cadastro do aluno atualizado com sucesso!");
     }
+
+    public void removerAluno(int idAluno){
+        alunos.remove(idAluno);
+        System.out.println("Aluno removido com sucesso!");
+    }
 }

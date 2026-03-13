@@ -68,6 +68,15 @@ public class Main {
 
                     listaAlunos.atualizarAluno(idAluno, nomeAluno, notaAluno, notaAluno2);
                 }
+
+                case"4" ->  {
+                    listaAlunos.listarAlunos();
+                    System.out.println("Informe o ID do aluno: ");
+                    int idAluno = sc.nextInt();
+                    sc.nextLine();
+
+                    listaAlunos.removerAlunos(idAluno);
+                }
             }
 
         }
