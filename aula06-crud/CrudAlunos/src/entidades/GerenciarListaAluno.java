@@ -30,11 +30,13 @@ public class GerenciarListaAluno {
         System.out.println("Cadastro do aluno atualizado com sucesso!");
     }
 
-    public void removerAluno(int idAluno){
+    public void removerAlunos(int idAluno){
         alunos.remove(idAluno);
         System.out.println("Aluno removido com sucesso!");
     }
 
-    public void removerAlunos(int idAluno) {
+    public void removerAluno(int idAluno) {
     }
+
+
 }
